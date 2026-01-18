@@ -1,28 +1,28 @@
-Ethical Keystroke Monitor & Analytical Dashboard
+🖥️ Ethical Keystroke Monitor & Analytical Dashboard
 📝 Project Overview
 
 Ethical Keystroke Monitor & Analytical Dashboard is a cybersecurity awareness tool developed during the VOIS & Vodafone Idea Foundation Cybersecurity Internship.
-The project serves as an educational demonstration of how keystroke logging operates within a controlled and ethical environment.
+The project provides an educational demonstration of how keystroke logging operates within a controlled, ethical environment.
 
-The application features a modern Dark Mode GUI that captures keyboard events, generates forensic-style logs, and provides real-time typing analytics. Its primary goal is to illustrate the risks associated with input-interception malware while promoting defensive cybersecurity practices.
+The application features a modern Dark Mode GUI that captures keyboard events, generates forensic-style logs, and provides real-time typing analytics. Its primary objective is to highlight the risks associated with input-interception malware while promoting strong defensive cybersecurity practices.
 
 🛡️ Problem Statement
 
-Keystroke logging is a stealthy pre-encryption threat that captures sensitive information such as passwords and personally identifiable information (PII) before it reaches secure applications.
+Keystroke logging is a stealthy pre-encryption threat that captures sensitive information—such as passwords and personally identifiable information (PII)—before it reaches secure applications.
 
-Key Challenges:
+Key Challenges
 
-Awareness Gap: Users often rely solely on browser-level security (HTTPS), unaware of local input-level vulnerabilities.
+Awareness Gap: Users often rely solely on browser-level security indicators (HTTPS), unaware of local input-level vulnerabilities.
 
-Educational Need: Most learners lack visibility into how keystroke logging actually functions.
+Educational Need: Many learners lack hands-on visibility into how keystroke logging actually functions.
 
-By visualizing the capture and analysis process, this project encourages defensive habits such as using Multi-Factor Authentication (MFA) and virtual keyboards to mitigate the risks posed by stealthy input loggers.
+By visualizing the capture and analysis process, this project encourages defensive habits such as Multi-Factor Authentication (MFA) and the use of virtual keyboards to reduce the risks posed by stealthy input loggers.
 
 ✨ Key Features
 
 Modern UI: Built with CustomTkinter for a professional, responsive dark-mode experience
 
-Live Feed: Real-time visualization of keystrokes within the dashboard
+Live Feed: Real-time visualization of keystrokes directly within the dashboard
 
 Forensic Logging: Structured JSON logs with human-readable timestamps and raw TXT logs
 
@@ -37,7 +37,6 @@ GUI Framework	CustomTkinter
 Input Handling	Pynput
 Data Format	JSON / Plain Text
 Forensics & Time	Datetime, OS Modules
-
 🚀 Getting Started
 Prerequisites
 
@@ -51,6 +50,7 @@ Clone the repository:
 
 git clone https://github.com/vaishaldsouza/-Keystroke_Logging_Demo.git
 cd -Keystroke_Logging_Demo
+
 
 Install dependencies:
 
@@ -70,11 +70,11 @@ python KeyloggerGUI.py
 
 👥 Targeted End Users
 
-Cybersecurity Students: To study input-based attack vectors and data serialization
+Cybersecurity Students: Study input-based attack vectors and data serialization
 
-IT Trainees: To understand forensic timelines and event-driven programming
+IT Trainees: Understand forensic timelines and event-driven programming
 
-General Users: To build awareness about spyware and endpoint security
+General Users: Build awareness about spyware and endpoint security
 
 📜 Disclaimer
 
