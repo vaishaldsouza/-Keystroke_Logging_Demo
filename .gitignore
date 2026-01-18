@@ -6,6 +6,6 @@ __pycache__/
 *.pyc
 
 *.json
-*.txt
+log_raw.txt
 
 .vscode/
